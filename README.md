@@ -95,7 +95,11 @@ For more detailed information about each component:
 
 ## Screenshots
 
-[Consider adding screenshots of key pages/features here]
+![Main](./Project images/image1.png)
+![Main](./Project images/image2.png)
+![Main](./Project images/image3.png)
+![Main](./Project images/image4.png)
+![Main](./Project images/image5.png)
 
 ## Future Enhancements
 

@@ -5293,11 +5293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\event-booking-system.csproj",
+      "projectUniqueName": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\event-booking-system.csproj",
       "projectName": "event-booking-system",
-      "projectPath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\event-booking-system.csproj",
+      "projectPath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\event-booking-system.csproj",
       "packagesPath": "C:\\Users\\lyr1c\\.nuget\\packages\\",
-      "outputPath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\obj\\",
+      "outputPath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

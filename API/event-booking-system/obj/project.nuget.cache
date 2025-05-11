@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "agXasxQTcDM=",
+  "dgSpecHash": "YhOS0SdTkS8=",
   "success": true,
-  "projectFilePath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\event-booking-system.csproj",
+  "projectFilePath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\event-booking-system.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lyr1c\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\lyr1c\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

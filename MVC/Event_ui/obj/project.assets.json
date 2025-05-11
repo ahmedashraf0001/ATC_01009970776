@@ -5881,11 +5881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Event_ui.csproj",
+      "projectUniqueName": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\MVC\\Event_ui\\Event_ui.csproj",
       "projectName": "Event_ui",
-      "projectPath": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Event_ui.csproj",
+      "projectPath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\MVC\\Event_ui\\Event_ui.csproj",
       "packagesPath": "C:\\Users\\lyr1c\\.nuget\\packages\\",
-      "outputPath": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\obj\\",
+      "outputPath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\MVC\\Event_ui\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

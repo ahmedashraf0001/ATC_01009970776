@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qz7+cN5QAvEKyCCc8eZw9OnYw4MAR9zJUPFnrAZ0C5I=",
+  "Hash": "pRzRZaQ/69nJfwJqEi5pY6JfkiSAkrw4tpO+EBuI8NU=",
   "Source": "event-booking-system",
   "BasePath": "_content/event-booking-system",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "event-booking-system\\wwwroot",
       "Source": "event-booking-system",
-      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\",
       "BasePath": "_content/event-booking-system",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\default.png",
       "SourceId": "event-booking-system",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\",
       "BasePath": "_content/event-booking-system",
       "RelativePath": "uploads/default#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\default.png"
     },
     {
-      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
       "SourceId": "event-booking-system",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\",
       "BasePath": "_content/event-booking-system",
       "RelativePath": "uploads/football#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\football.jpeg"
     },
     {
-      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
       "SourceId": "event-booking-system",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\",
       "BasePath": "_content/event-booking-system",
       "RelativePath": "uploads/Rock Concert#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Rock Concert.jpeg"
     },
     {
-      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
       "SourceId": "event-booking-system",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\",
       "BasePath": "_content/event-booking-system",
       "RelativePath": "uploads/Shakespeare Play#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Shakespeare Play.jpg"
     },
     {
-      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
       "SourceId": "event-booking-system",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\",
       "BasePath": "_content/event-booking-system",
       "RelativePath": "uploads/Stand-up Comedy Show#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Stand-up Comedy Show.jpeg"
     },
     {
-      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
       "SourceId": "event-booking-system",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\",
       "BasePath": "_content/event-booking-system",
       "RelativePath": "uploads/Tech Conference#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "uploads/default.5bc1hng2h3.png",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "Route": "uploads/default.png",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\default.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -228,7 +228,7 @@
     },
     {
       "Route": "uploads/football.4ivm50oqrz.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -273,7 +273,7 @@
     },
     {
       "Route": "uploads/football.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -310,7 +310,7 @@
     },
     {
       "Route": "uploads/Rock Concert.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -347,7 +347,7 @@
     },
     {
       "Route": "uploads/Rock Concert.s79v0wdb76.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -392,7 +392,7 @@
     },
     {
       "Route": "uploads/Shakespeare Play.jpg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -429,7 +429,7 @@
     },
     {
       "Route": "uploads/Shakespeare Play.t2dsufd0pv.jpg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -474,7 +474,7 @@
     },
     {
       "Route": "uploads/Stand-up Comedy Show.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -511,7 +511,7 @@
     },
     {
       "Route": "uploads/Stand-up Comedy Show.wfhct8pfd4.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -556,7 +556,7 @@
     },
     {
       "Route": "uploads/Tech Conference.e0jm0tf5m9.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -601,7 +601,7 @@
     },
     {
       "Route": "uploads/Tech Conference.jpeg",
-      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\API\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {

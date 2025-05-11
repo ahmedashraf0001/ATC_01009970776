@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G1Z6AGXgVis=",
+  "dgSpecHash": "SmKq671leS8=",
   "success": true,
-  "projectFilePath": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Event_ui.csproj",
+  "projectFilePath": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\MVC\\Event_ui\\Event_ui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lyr1c\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\lyr1c\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
