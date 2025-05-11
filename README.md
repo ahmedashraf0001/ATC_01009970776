@@ -81,8 +81,8 @@ This repository contains two main components:
 
 For more detailed information about each component:
 
-- [API Documentation](./API/API_README.md) - Details about the backend API, endpoints, and data structures
-- [MVC Documentation](./MVC/MVC_README.md) - Information about the frontend application, views, and user interactions
+- [API Documentation](./API/README.md) - Details about the backend API, endpoints, and data structures
+- [MVC Documentation](./MVC/README.md) - Information about the frontend application, views, and user interactions
 
 ## System Workflow
 
@@ -93,13 +93,15 @@ For more detailed information about each component:
 5. **Manage Bookings**: Users can view their bookings and cancel if needed
 6. **Admin Management**: Administrators can manage all aspects of the system through the admin panel
 
-## Screenshots
+## 📸 Screenshots
 
-![Main](./Project images/image1.png)
-![Main](./Project images/image2.png)
-![Main](./Project images/image3.png)
-![Main](./Project images/image4.png)
-![Main](./Project images/image5.png)
+Here are some snapshots from the application:
+
+![Main Page](./Project%20images/image1.png) 
+![All Events](./Project%20images/image2.png)  
+![Event Details](./Project%20images/image3.png)  
+![Admin Panel](./Project%20images/image4.png)  
+![Profile Page](./Project%20images/image5.png)
 
 ## Future Enhancements
 
