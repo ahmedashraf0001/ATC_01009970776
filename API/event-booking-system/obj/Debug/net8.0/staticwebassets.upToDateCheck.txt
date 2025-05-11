@@ -1,0 +1,6 @@
+wwwroot\uploads\default.png
+wwwroot\uploads\football.jpeg
+wwwroot\uploads\Rock Concert.jpeg
+wwwroot\uploads\Shakespeare Play.jpg
+wwwroot\uploads\Stand-up Comedy Show.jpeg
+wwwroot\uploads\Tech Conference.jpeg

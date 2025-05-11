@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\Rock Concert.jpeg"
+    },
+    {
+      "Id": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Shakespeare Play.jpg"
+    },
+    {
+      "Id": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\Stand-up Comedy Show.jpeg"
+    },
+    {
+      "Id": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\Tech Conference.jpeg"
+    },
+    {
+      "Id": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "PackagePath": "staticwebassets\\uploads\\default.png"
+    },
+    {
+      "Id": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\football.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.event-booking-system.props",
+      "PackagePath": "build\\event-booking-system.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.event-booking-system.props",
+      "PackagePath": "buildMultiTargeting\\event-booking-system.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.event-booking-system.props",
+      "PackagePath": "buildTransitive\\event-booking-system.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.event-booking-system.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.event-booking-system.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

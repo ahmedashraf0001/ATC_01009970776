@@ -1,0 +1,76 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/default.5bc1hng2h3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\default.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5bc1hng2h3"},{"Name":"integrity","Value":"sha256-bx5MQGofKCvLVK\u002BeEhHTYUKvCnPf0XE/6eO02vFEPWI="},{"Name":"label","Value":"_content/event-booking-system/uploads/default.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3346"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bx5MQGofKCvLVK\u002BeEhHTYUKvCnPf0XE/6eO02vFEPWI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 17:21:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/default.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\default.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bx5MQGofKCvLVK\u002BeEhHTYUKvCnPf0XE/6eO02vFEPWI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3346"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bx5MQGofKCvLVK\u002BeEhHTYUKvCnPf0XE/6eO02vFEPWI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 17:21:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/football.4ivm50oqrz.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\football.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4ivm50oqrz"},{"Name":"integrity","Value":"sha256-BJI8qj08i7DbQfXmUD529Cffs1V2\u002BwcQLnwju\u002Bh/ALU="},{"Name":"label","Value":"_content/event-booking-system/uploads/football.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"944364"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BJI8qj08i7DbQfXmUD529Cffs1V2\u002BwcQLnwju\u002Bh/ALU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:08:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/football.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\football.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BJI8qj08i7DbQfXmUD529Cffs1V2\u002BwcQLnwju\u002Bh/ALU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"944364"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022BJI8qj08i7DbQfXmUD529Cffs1V2\u002BwcQLnwju\u002Bh/ALU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:08:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Rock Concert.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Rock Concert.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein\u002BKrPQh2oS1Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14209"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein\u002BKrPQh2oS1Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:09:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Rock Concert.s79v0wdb76.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Rock Concert.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s79v0wdb76"},{"Name":"integrity","Value":"sha256-mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein\u002BKrPQh2oS1Q="},{"Name":"label","Value":"_content/event-booking-system/uploads/Rock Concert.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14209"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein\u002BKrPQh2oS1Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:09:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Shakespeare Play.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Shakespeare Play.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NXst\u002BkyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"145144"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NXst\u002BkyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:10:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Shakespeare Play.t2dsufd0pv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Shakespeare Play.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t2dsufd0pv"},{"Name":"integrity","Value":"sha256-NXst\u002BkyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE="},{"Name":"label","Value":"_content/event-booking-system/uploads/Shakespeare Play.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145144"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NXst\u002BkyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:10:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Stand-up Comedy Show.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Stand-up Comedy Show.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10287"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:11:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Stand-up Comedy Show.wfhct8pfd4.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Stand-up Comedy Show.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wfhct8pfd4"},{"Name":"integrity","Value":"sha256-tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8="},{"Name":"label","Value":"_content/event-booking-system/uploads/Stand-up Comedy Show.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10287"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:11:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Tech Conference.e0jm0tf5m9.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Tech Conference.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e0jm0tf5m9"},{"Name":"integrity","Value":"sha256-QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0="},{"Name":"label","Value":"_content/event-booking-system/uploads/Tech Conference.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"583136"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:11:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/event-booking-system/uploads/Tech Conference.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Tech Conference.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"583136"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 03:11:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "Qz7+cN5QAvEKyCCc8eZw9OnYw4MAR9zJUPFnrAZ0C5I=",
+  "Source": "event-booking-system",
+  "BasePath": "_content/event-booking-system",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "event-booking-system\\wwwroot",
+      "Source": "event-booking-system",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/default#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5bc1hng2h3",
+      "Integrity": "bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\default.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/football#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ivm50oqrz",
+      "Integrity": "BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\football.jpeg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Rock Concert#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s79v0wdb76",
+      "Integrity": "mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Rock Concert.jpeg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Shakespeare Play#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t2dsufd0pv",
+      "Integrity": "NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Shakespeare Play.jpg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Stand-up Comedy Show#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wfhct8pfd4",
+      "Integrity": "tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Stand-up Comedy Show.jpeg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Tech Conference#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e0jm0tf5m9",
+      "Integrity": "QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Tech Conference.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/default.5bc1hng2h3.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:21:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bc1hng2h3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/default.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/default.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:21:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/football.4ivm50oqrz.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:08:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ivm50oqrz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/football.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/football.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:08:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rock Concert.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rock Concert.s79v0wdb76.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s79v0wdb76"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Rock Concert.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shakespeare Play.jpg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:10:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shakespeare Play.t2dsufd0pv.jpg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:10:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t2dsufd0pv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Shakespeare Play.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Stand-up Comedy Show.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Stand-up Comedy Show.wfhct8pfd4.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfhct8pfd4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Stand-up Comedy Show.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Tech Conference.e0jm0tf5m9.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e0jm0tf5m9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Tech Conference.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Tech Conference.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Event-booking-system-project\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0="
+        }
+      ]
+    }
+  ]
+}
