@@ -1,0 +1,231 @@
+﻿@model EventDetailsDTO
+<link rel="stylesheet" href="~/css/EventDetails.css" />
+
+<div class="container">
+    <div class="booking-container">
+        <div class="booking-left">
+            <div class="booking-card">
+                <div class="booking-header">
+                    <div class="booking-step">1</div>
+                    <h2 class="booking-title">Event Details</h2>
+                </div>
+                <div class="event-summary">
+                    <div class="event-summary-img">
+                        <img src="https://localhost:7242/api/@Model.ImageUrl" alt="@Model.Title" />
+                    </div>
+                    <div class="event-summary-content">
+                        <h3>@Model.Title</h3>
+                        <div class="event-meta">
+                            <i class="fas fa-calendar">📅</i>
+                            <span>@Model.Date.ToString("MMMM dd, yyyy")</span>
+                        </div>
+                        <div class="event-meta">
+                            <i class="fas fa-clock">🕒</i>
+                            <span>@Model.Date.ToString("h:mm tt")</span>
+                        </div>
+                        <div class="event-meta">
+                            <i class="fas fa-map-marker-alt">📍</i>
+                            <span>@Model.Location</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-description">
+                    <h4>About This Event</h4>
+                    <p>@Model.Description</p>
+                </div>
+
+                <div class="ticket-selection">
+                    <div class="ticket-type">
+                        <div>
+                            <div class="ticket-name">General Admission</div>
+                            <div class="ticket-description">Access to all main stages and areas</div>
+                            <div class="tickets-remaining" style="color:dodgerblue; font-weight:bold">Tickets Remaining @Model.AdmissionTicketQty</div>
+                        </div>
+                        <div>
+                            <div class="ticket-price">$@Model.AdmissionPrice.ToString("N0")</div>
+                            <div class="ticket-controls">
+                                <button class="quantity-btn" id="decreaseBtn">-</button>
+                                <div class="ticket-quantity" id="quantity">0</div>
+                                <button class="quantity-btn" id="increaseBtn">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ticket-type">
+                        <div>
+                            <div class="ticket-name">VIP Experience</div>
+                            <div class="ticket-description">Priority entrance, VIP lounge access, premium viewing areas</div>
+                            <div class="tickets-remaining" style="color:dodgerblue; font-weight:bold">Tickets Remaining @Model.VipTicketQty</div>
+                        </div>
+                        <div>
+                            <div class="ticket-price">$@Model.VipPrice.ToString("N0")</div>
+                            <div class="ticket-controls">
+                                <button class="quantity-btn" id="decreaseVIPBtn">-</button>
+                                <div class="ticket-quantity" id="vipQuantity">0</div>
+                                <button class="quantity-btn" id="increaseVIPBtn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="booking-right">
+            <div class="booking-card">
+                <h3 class="order-summary-title">Order Summary</h3>
+
+                <div class="summary-item">
+                    <div>General Admission</div>
+                    <div>@Model.AdmissionPrice.ToString("C")</div>
+                </div>
+
+                <div class="summary-item">
+                    <div>Service Fee</div>
+                    <div>$5.00</div>
+                </div>
+
+                <div class="summary-item">
+                    <div>Processing Fee</div>
+                    <div>$2.50</div>
+                </div>
+
+                <div class="summary-total">
+                    <div>Total</div>
+                    <div>$@((Model.AdmissionPrice + 5.00m + 2.50m).ToString("N0"))</div>
+                </div>
+                @if (Model.IsBooked)
+                {
+                    <button style="background-color:var(--success-color)" class="btn-booknow btn-booked" disabled>Booked</button>
+                }
+                else if (Model.VipTicketQty == 0 && Model.AdmissionTicketQty == 0)
+                {
+                    <button class="btn-booknow btn-sold-out" disabled>Sold out</button>
+                }
+                else
+                {
+                    <button style="background-color:var(--primary-red)" class="btn-booknow" id="completeBookingBtn">Book Now</button>
+                }
+                <div class="cancellation-policy">
+                    By completing this booking, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Cancellation Policy</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<form id="bookingForm" asp-controller="Booking" asp-action="Book" method="POST" >
+    <input type="hidden" id="ticketType" name="TicketType" />
+    <input type="hidden" id="admissionQty" name="AdmissionQty" />
+    <input type="hidden" id="vipQty" name="VipQty" />
+    <input type="hidden" name="EventId" value="@Model.Id" />
+</form>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let admissionQty = 1;
+        let vipQty = 0;
+        let admissionPrice = @Model.AdmissionPrice;
+        let vipPrice = @Model.VipPrice;
+        let admissionTicketQty = @Model.AdmissionTicketQty;  
+        let vipTicketQty = @Model.VipTicketQty;  
+        let eventId = @Model.Id;  
+
+        const admissionQuantityDisplay = document.getElementById("quantity");
+        const vipQuantityDisplay = document.getElementById("vipQuantity");
+
+        const increaseBtn = document.getElementById("increaseBtn");
+        const decreaseBtn = document.getElementById("decreaseBtn");
+        const increaseVIPBtn = document.getElementById("increaseVIPBtn");
+        const decreaseVIPBtn = document.getElementById("decreaseVIPBtn");
+
+        const totalPriceDisplay = document.querySelector(".summary-total div:last-child");
+
+        const bookNowBtn = document.getElementById("completeBookingBtn");
+
+        const bookingForm = document.getElementById("bookingForm");
+        const ticketTypeInput = document.getElementById("ticketType");
+        const admissionQtyInput = document.getElementById("admissionQty");
+        const vipQtyInput = document.getElementById("vipQty");
+
+        function updateQuantityDisplay() {
+            admissionQuantityDisplay.textContent = admissionQty;
+            vipQuantityDisplay.textContent = vipQty;
+            updateTotalPrice();
+            updateBookNowButton();
+            updateTicketType();  
+        }
+
+        function updateTotalPrice() {
+            const total = (admissionQty * admissionPrice) + (vipQty * vipPrice) + 5.00 + 2.50;
+            totalPriceDisplay.textContent = `$${total.toFixed(2)}`;
+        }
+
+        function updateBookNowButton() {
+            if (admissionTicketQty === 0 && vipTicketQty === 0) {
+                bookNowBtn.textContent = "Sold Out";
+                bookNowBtn.disabled = true;  
+                bookNowBtn.style.backgroundColor = '#ccc'; 
+                bookNowBtn.style.cursor = 'not-allowed';  
+            } else if (@Model.IsBooked.ToString().ToLower()) {
+                bookNowBtn.textContent = "Booked";
+                bookNowBtn.disabled = true; 
+                bookNowBtn.style.backgroundColor = '#d3d3d3';  
+                bookNowBtn.style.cursor = 'not-allowed'; 
+            } else {
+                bookNowBtn.textContent = "Book Now";
+                bookNowBtn.disabled = false; 
+                bookNowBtn.style.backgroundColor = '#e63946'; 
+                bookNowBtn.style.cursor = 'pointer'; 
+            }
+        }
+
+        function updateTicketType() {
+            if (admissionQty > 0 && vipQty === 0) {
+                ticketTypeInput.value = "0";  
+            } else if (vipQty > 0 && admissionQty === 0) {
+                ticketTypeInput.value = "1"; 
+            } else if (admissionQty > 0 && vipQty > 0) {
+                ticketTypeInput.value = "2"; 
+            } else {
+                ticketTypeInput.value = "";  
+            }
+        }
+
+        decreaseBtn.addEventListener("click", function () {
+            if (admissionQty > 0) {
+                admissionQty--;
+                updateQuantityDisplay();
+            }
+        });
+        increaseBtn.addEventListener("click", function () {
+            if (admissionQty < admissionTicketQty) {
+                admissionQty++;
+                updateQuantityDisplay();
+            }
+        });
+
+        decreaseVIPBtn.addEventListener("click", function () {
+            if (vipQty > 0) {
+                vipQty--;
+                updateQuantityDisplay();
+            }
+        });
+
+        increaseVIPBtn.addEventListener("click", function () {
+            if (vipQty < vipTicketQty) {
+                vipQty++;
+                updateQuantityDisplay();
+            }
+        });
+
+        bookNowBtn.addEventListener("click", function () {
+            admissionQtyInput.value = admissionQty;
+            vipQtyInput.value = vipQty;
+
+            if(admissionQty > 0 || vipQty > 0){
+                bookingForm.submit();
+            }
+        });
+
+        updateQuantityDisplay();
+    });
+</script>

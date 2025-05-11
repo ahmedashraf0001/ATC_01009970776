@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewData["Title"] = "AdminLayout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+	<link rel="stylesheet" href="~/css/admin.css">
+
+
+    <div class="main-content">
+        <div class="container">
+            <h2 class="section-title">Admin Panel</h2>
+
+            <div class="admin-grid">
+                <div class="sidebar">
+                    <h3 class="sidebar-title">Management</h3>
+                    <ul class="sidebar-menu">
+                        <li>
+                        <a asp-controller="Admin" asp-action="Panal"
+                               class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Admin" ? "active" : "")">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-controller="Event" asp-action="Panal" asp-route-pageSize = "5"
+                               class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Event" ? "active" : "")">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                        <a asp-controller="User" asp-action="Panal" asp-route-pageSize="5"
+                               class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "User" ? "active" : "")">
+                                Users
+                            </a>
+                        </li>
+                        <li>
+                        <a asp-controller="Booking" asp-action="Panal" asp-route-pageSize="5"
+                               class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Booking" ? "active" : "")">
+                                Bookings
+                            </a>
+                        </li>
+                        <li>
+                        <a asp-controller="Category" asp-action="Panal" asp-route-pageSize="5"
+                               class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Category" ? "active" : "")">
+                                Categories
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="content-area">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>

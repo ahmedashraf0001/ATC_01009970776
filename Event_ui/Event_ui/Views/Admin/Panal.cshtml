@@ -1,0 +1,98 @@
+﻿@using Event_ui.DTOs.Others
+@model DashboardDTO
+@{
+    ViewData["Title"] = "Panal";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<div class="tab-content" id="dashboard">
+    <div class="content-header">
+        <h3 class="content-title">Dashboard</h3>
+        <span id="currentDate"></span>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card primary">
+            <h3>Total Events</h3>
+            <div class="number">@Model.TotalEvents</div>
+        </div>
+        <div class="stat-card success">
+            <h3>Total Users</h3>
+            <div class="number">@Model.UsersCount</div>
+        </div>
+        <div class="stat-card warning">
+            <h3>Total Bookings</h3>
+            <div class="number">@Model.TotalBookings</div>
+        </div>
+        <div class="stat-card info">
+            <h3>Revenue</h3>
+            <div class="number">$@Model.Revenue.ToString("N0")</div>
+        </div>
+    </div>
+
+    <div class="content-header">
+        <h3 class="content-title">Recent Events</h3>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Bookings</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.recentEvents)
+                {
+                    <tr>
+                        <td>@item.EvTitle</td>
+                        <td>@item.EvDate.ToString("dddd, MMMM dd, yyyy - hh:mm tt")</td>
+                        <td>
+                            <span class="badge @GetCategoryBadgeClass(item.EvCategory)">
+                                @item.EvCategory
+                            </span>
+                        </td>
+                        <td>@item.numOfBooking</td>
+                    </tr>
+                }            
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    function updateTime() {
+        const now = new Date();
+        const options = {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: true
+        };
+        document.getElementById('currentDate').textContent = now.toLocaleString('en-US', options);
+    }
+
+    setInterval(updateTime, 1000); 
+    updateTime(); 
+</script>
+@functions {
+    public string GetCategoryBadgeClass(string category)
+    {
+        return category?.ToLower() switch
+        {
+            "music" => "badge-music",
+            "sports" => "badge-sports",
+            "technology" => "badge-technology",
+            "arts" => "badge-arts",
+            "food" => "badge-food",
+            "entertainment" => "badge-entertainment",
+            _ => "badge-technology"
+        };
+    }
+}

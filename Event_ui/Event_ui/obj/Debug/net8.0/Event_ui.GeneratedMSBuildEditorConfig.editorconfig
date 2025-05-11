@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Event_ui
+build_property.RootNamespace = Event_ui
+build_property.ProjectDir = G:\work\Coding\backend\,net api\Projects\Event_ui\Event_ui\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\work\Coding\backend\,net api\Projects\Event_ui\Event_ui
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Account/PasswordReset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXNzd29yZFJlc2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Account/Reset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Admin/Panal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFuYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Booking/Panal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xQYW5hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Category/Panal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcUGFuYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Event/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Event/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Event/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Event/Panal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcUGFuYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/BookingConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJvb2tpbmdDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/PasswordResetConf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhc3N3b3JkUmVzZXRDb25mLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/PasswordReseted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhc3N3b3JkUmVzZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/UnBookingConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVuQm9va2luZ0NvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/User/Bookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxCb29raW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/User/Panal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQYW5hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/User/Security.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZWN1cml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/work/Coding/backend/\,net api/Projects/Event_ui/Event_ui/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zegwxa7w35

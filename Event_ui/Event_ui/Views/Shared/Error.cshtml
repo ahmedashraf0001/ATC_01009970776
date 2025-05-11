@@ -1,0 +1,58 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error | Page Not Found";
+}
+<link rel="stylesheet" href="~/css/Error.css" />
+
+<div class="error-container">
+    <div class="error-content">
+        <div class="error-icon">
+            <svg viewBox="0 0 24 24" width="64" height="64">
+                <circle cx="12" cy="12" r="11" fill="#f8d7da" stroke="#dc3545" stroke-width="2" />
+                <text x="12" y="17" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc3545">!</text>
+            </svg>
+        </div>
+        <h1>Something went wrong</h1>
+        <p class="subtitle">We're sorry, but we couldn't process your request.</p>
+
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="error-message">
+                <p><strong>Error:</strong> @Model.ErrorMessage</p>
+            </div>
+        }
+
+        @if (Model.ShowRequestId)
+        {
+            <div class="request-id">
+                <span>Request ID:</span> <code>@Model.RequestId</code>
+            </div>
+        }
+
+        <div class="action-card">
+            <h2>What can you do?</h2>
+            <ul>
+                <li>
+                    <span class="action-icon">↻</span>
+                    <span>Try refreshing the page</span>
+                </li>
+                <li>
+                    <span class="action-icon">←</span>
+                    <span>Go back to the previous page</span>
+                </li>
+                <li>
+                    <span class="action-icon">✉</span>
+                    <span>Contact our support team</span>
+                </li>
+            </ul>
+        </div>
+
+        <a asp-controller="Event" asp-action="Index" class="home-button">Return to Homepage</a>
+
+        <div class="dev-note">
+            <h3>Development Mode</h3>
+            <p>Set <code>ASPNETCORE_ENVIRONMENT</code> to <strong>Development</strong> to see detailed error information.</p>
+            <p class="warning">Only enable Development mode on local machines.</p>
+        </div>
+    </div>
+</div>

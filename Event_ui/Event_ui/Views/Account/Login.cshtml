@@ -1,0 +1,123 @@
+﻿@model LoginDTO
+
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    .validation-error-container {
+        background-color: #fef2f2;
+        border-left: 4px solid #ef4444;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 16px 0;
+        overflow: hidden;
+    }
+
+    .validation-error-header {
+        background-color: rgba(239, 68, 68, 0.1);
+        color: #b91c1c;
+        display: flex;
+        align-items: center;
+        padding: 12px 16px;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+        .validation-error-header svg {
+            margin-right: 10px;
+            color: #b91c1c;
+        }
+
+    .validation-error-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 12px 16px;
+    }
+
+    .validation-error-item {
+        color: #b91c1c;
+        padding: 6px 0;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+
+        .validation-error-item:before {
+            content: "•";
+            color: #ef4444;
+            font-weight: bold;
+            display: inline-block;
+            width: 16px;
+            margin-right: 4px;
+        }
+
+        .validation-error-item:not(:last-child) {
+            border-bottom: 1px dashed rgba(239, 68, 68, 0.2);
+        }
+
+    .error-field {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+    .main-content{
+        display:flex;
+        flex-direction:column;
+    }
+
+</style>
+<link rel="stylesheet" href="~/css/Login.css" />
+
+<div class="main-content" >
+    <div class="con">
+        <div class="auth-container" id="login-form">
+
+            <div class="auth-header">
+                <h2>Welcome Back</h2>
+                <p>Sign in to continue to EventHub</p>
+            </div>
+            <form id="loginForm" asp-action="Login" method="post">
+                <div class="form-group">
+                    <label for="login-email">Username</label>
+                    <input type="text" asp-for="Username" id="login-email" required class="form-control" />
+                    <div class="error-message" id="login-email-error">Please enter a valid email address</div>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" asp-for="Password" id="login-email" required class="form-control" />
+                    <div class="error-message" id="login-password-error">Password must be at least 6 characters</div>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button>
+            </form>
+            <div class="form-footer" style="display:flex; flex-direction:column">
+                <span>
+                    Forgot Password? <a asp-action="Reset" id="switch-to-reset">Reset Password</a>
+                </span>
+                <span>
+                Don't have an account? <a asp-action="Register" id="switch-to-register">Sign up now</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="validation-error-container">
+            <div class="validation-error-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span>Please correct the following errors:</span>
+            </div>
+            <ul class="validation-error-list">
+                @foreach (var error in ViewData.ModelState.Values
+               .SelectMany(v => v.Errors)
+               .Select(e => e.ErrorMessage)
+               .Distinct())
+                {
+                    <li class="validation-error-item">@error</li>
+                }
+            </ul>
+        </div>
+    }
+</div>

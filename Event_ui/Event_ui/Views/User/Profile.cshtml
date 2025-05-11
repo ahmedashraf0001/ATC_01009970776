@@ -1,0 +1,173 @@
+﻿@model UserDetailDTO
+<link rel="stylesheet" href="~/css/Profile.css"  />
+<style>
+    .validation-error-container {
+    background-color: #fef2f2;
+    border-left: 4px solid #ef4444;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 16px 0;
+    overflow: hidden;
+    }
+
+    .validation-error-header {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #b91c1c;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+    .validation-error-header svg {
+    margin-right: 10px;
+    color: #b91c1c;
+    }
+
+    .validation-error-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 16px;
+    }
+
+    .validation-error-item {
+    color: #b91c1c;
+    padding: 6px 0;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    }
+
+    .validation-error-item:before {
+    content: "•";
+    color: #ef4444;
+    font-weight: bold;
+    display: inline-block;
+    width: 16px;
+    margin-right: 4px;
+    }
+
+    .validation-error-item:not(:last-child) {
+    border-bottom: 1px dashed rgba(239, 68, 68, 0.2);
+    }
+
+    .error-field {
+    font-weight: 600;
+    margin-right: 4px;
+    }
+
+</style>
+@{
+    ViewBag.Title = "Booking Confirmation";
+    var errorMessage = TempData["ErrorMessage"] as string;
+    var formattedErrors = TempData["FormattedErrors"] as List<string> ?? new List<string>();
+    TempData["Current"] = "Profile";
+}
+<main class="main-content">
+    <h1 class="page-title">User Profile</h1>
+    @if (TempData["ValidationErrors"] != null || formattedErrors.Any() || !string.IsNullOrEmpty(errorMessage) || Model == null)
+    {
+        <div class="validation-error-container">
+            <div class="validation-error-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span>Please correct the following errors:</span>
+            </div>
+            <ul class="validation-error-list">
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <li class="validation-error-item">@errorMessage</li>
+                }
+                @foreach (var error in formattedErrors)
+                {
+                    <li class="validation-error-item">@error</li>
+                }
+            </ul>
+        </div>
+    }
+    else
+    {
+        <div class="profile-container">
+            <div class="profile-sidebar">
+                <div class="profile-avatar">
+                    <div class="avatar-image">
+                        <img class="avatar-image" src="@(Model.ImageUrl == null ? "https://localhost:7242/api/uploads/default.png" : $"https://localhost:7242/api/{Model.ImageUrl}")"
+                             alt="User Image" />
+                    </div>
+                    <div class="avatar-name">@Model.FirstName @Model.LastName</div>
+                    <div class="avatar-email">@Model.Email</div>
+                </div>
+
+                <div class="profile-nav">
+                    <div class="profile-nav-item active">
+                        <a asp-action="Profile"><i>👤</i> Personal Information</a>
+                    </div>
+                    <div class="profile-nav-item">
+                        <a asp-action="Security"><i>🔒</i> Security</a>
+                    </div>
+                    <div class="profile-nav-item">
+                        <a asp-action="Bookings"><i>📅</i> My Bookings</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-content">
+                <div id="personal-info-section">
+
+                    <h2 class="content-title">Personal Information</h2>
+
+
+
+                    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+
+                        <div class="avatar-upload">
+                            <div class="avatar-preview">
+                                <img class="avatar-preview" src="@(Model.ImageUrl == null ? "https://localhost:7242/api/uploads/default.png" : $"https://localhost:7242/api/{Model.ImageUrl}")"
+                                     alt="User Image" />
+                            </div>
+
+                            <input type="file" name="file" accept="image/*" class="form-input" />
+                        </div>
+
+                        <input type="hidden" name="Id" class="form-input" value="@Model.Id" hidden />
+
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" name="Name" class="form-input" value="@Model.FirstName @Model.LastName" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="Email" class="form-input" value="@Model.Email" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" name="Phone" class="form-input" value="@Model.PhoneNumber" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Address</label>
+                            <input type="text" name="Address" class="form-input" value="@Model.Address" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Bio</label>
+                            <textarea class="form-input" name="Bio" rows="3">@Model.Bio</textarea>
+                        </div>
+
+                        <div class="action-buttons">
+                            <button type="button" class="btn btn-cancel">Cancel</button>
+                            <button type="submit" class="btn btn-save">Save Changes</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    }
+</main>

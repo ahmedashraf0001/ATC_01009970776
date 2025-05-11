@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Event_ui.props" />
+</Project>

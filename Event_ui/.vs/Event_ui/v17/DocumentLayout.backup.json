@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\util\\errorshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\util\\errorshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\views\\admin\\panal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\views\\admin\\panal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\views\\shared\\passwordreseted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\views\\shared\\passwordreseted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event_ui\\event_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A31B830-9B37-4D7C-A242-B2E9B88937A4}|Event_ui\\Event_ui.csproj|solutionrelative:event_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 900,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Panal.cshtml",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Views\\Admin\\Panal.cshtml",
+              "RelativeDocumentMoniker": "Event_ui\\Views\\Admin\\Panal.cshtml",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Views\\Admin\\Panal.cshtml",
+              "RelativeToolTip": "Event_ui\\Views\\Admin\\Panal.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAF4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T03:34:48.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.css",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "Event_ui\\wwwroot\\css\\Login.css",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "Event_ui\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAvwKkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-11T03:30:26.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PasswordReseted.cshtml",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Views\\Shared\\PasswordReseted.cshtml",
+              "RelativeDocumentMoniker": "Event_ui\\Views\\Shared\\PasswordReseted.cshtml",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Views\\Shared\\PasswordReseted.cshtml",
+              "RelativeToolTip": "Event_ui\\Views\\Shared\\PasswordReseted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T03:29:57.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Controllers\\EventController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Event_ui\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAqwAEBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:22:21.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Event_ui\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Event_ui\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T03:46:11.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorsHandler.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Util\\ErrorsHandler.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Util\\ErrorsHandler.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Util\\ErrorsHandler.cs",
+              "RelativeToolTip": "Event_ui\\Util\\ErrorsHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:24:57.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Controllers\\UserController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Event_ui\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAtwPkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:22:39.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Controllers\\HomeController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Event_ui\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:22:38.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Controllers\\AdminController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Event_ui\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:22:27.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Controllers\\BookingController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Event_ui\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAArwLAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:22:13.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Controllers\\AccountController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Event_ui\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAwwIoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:21:34.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Program.cs",
+              "RelativeDocumentMoniker": "Event_ui\\Program.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\Event_ui\\Event_ui\\Program.cs",
+              "RelativeToolTip": "Event_ui\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:17:52.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

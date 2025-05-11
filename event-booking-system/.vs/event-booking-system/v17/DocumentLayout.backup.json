@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\services\\implementations\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\services\\implementations\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\repositories\\implementations\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\repositories\\implementations\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|g:\\work\\coding\\backend\\,net api\\projects\\event-booking-system\\event-booking-system\\common\\utils\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087FA25C-CB07-42D7-B7B4-21EAA7CFCF78}|event-booking-system\\event-booking-system.csproj|solutionrelative:event-booking-system\\common\\utils\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1716,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\BookingService.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Services\\Implementations\\BookingService.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\BookingService.cs",
+              "RelativeToolTip": "event-booking-system\\Services\\Implementations\\BookingService.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:43:23.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "event-booking-system\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:43:20.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Services\\Implementations\\UserService.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "event-booking-system\\Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:43:04.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Repositories\\Implementations\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Repositories\\Implementations\\CategoryRepository.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Repositories\\Implementations\\CategoryRepository.cs",
+              "RelativeToolTip": "event-booking-system\\Repositories\\Implementations\\CategoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:41:48.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\CategoryService.cs*",
+              "RelativeToolTip": "event-booking-system\\Services\\Implementations\\CategoryService.cs*",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAnwH8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:32:24.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Controllers\\CategoriesController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "event-booking-system\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T04:32:01.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\EventService.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Services\\Implementations\\EventService.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\EventService.cs",
+              "RelativeToolTip": "event-booking-system\\Services\\Implementations\\EventService.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAcwE8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:53:01.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Controllers\\EventsController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "event-booking-system\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:51:02.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Common\\Utils\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Common\\Utils\\DataSeeder.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Common\\Utils\\DataSeeder.cs",
+              "RelativeToolTip": "event-booking-system\\Common\\Utils\\DataSeeder.cs",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAqwGEBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:36:44.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "event-booking-system\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:27:20.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "event-booking-system\\Controllers\\AuthController.cs",
+              "ToolTip": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "event-booking-system\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:26:41.481Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+﻿@using System.Security.Claims;
+@model UserDetailDTO
+@{
+    TempData["Current"] = "Security";
+}
+<style>
+    .validation-error-container {
+        background-color: #fef2f2;
+        border-left: 4px solid #ef4444;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 16px 0;
+        overflow: hidden;
+    }
+
+    .validation-error-header {
+        background-color: rgba(239, 68, 68, 0.1);
+        color: #b91c1c;
+        display: flex;
+        align-items: center;
+        padding: 12px 16px;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+        .validation-error-header svg {
+            margin-right: 10px;
+            color: #b91c1c;
+        }
+
+    .validation-error-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 12px 16px;
+    }
+
+    .validation-error-item {
+        color: #b91c1c;
+        padding: 6px 0;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+
+        .validation-error-item:before {
+            content: "•";
+            color: #ef4444;
+            font-weight: bold;
+            display: inline-block;
+            width: 16px;
+            margin-right: 4px;
+        }
+
+        .validation-error-item:not(:last-child) {
+            border-bottom: 1px dashed rgba(239, 68, 68, 0.2);
+        }
+
+    .error-field {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+
+
+</style>
+@{
+    ViewBag.Title = "Booking Confirmation";
+    var errorMessage = TempData["ErrorMessage"] as string;
+    var formattedErrors = TempData["FormattedErrors"] as List<string> ?? new List<string>();
+}
+<link rel="stylesheet" href="~/css/Profile.css" />
+<main class="main-content">
+    <h1 class="page-title">User Profile</h1>
+
+    @if (TempData["PasswordChanged"] != null)
+    {
+        <div id="notification" class="notification">
+            <div class="notification-content">
+                <span class="notification-icon">✓</span>
+                <span class="notification-message">Password changed successfully!</span>
+            </div>
+        </div>
+    }
+
+    @if (TempData["ValidationErrors"] != null || formattedErrors.Any() || !string.IsNullOrEmpty(errorMessage) || Model == null)
+    {
+        <div class="validation-error-container">
+            <div class="validation-error-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span>Please correct the following errors:</span>
+            </div>
+            <ul class="validation-error-list">
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <li class="validation-error-item">@errorMessage</li>
+                }
+                @foreach (var error in formattedErrors)
+                {
+                    <li class="validation-error-item">@error</li>
+                }
+            </ul>
+        </div>
+    }
+    else
+    {
+        <div class="profile-container">
+            <div class="profile-sidebar">
+                <div class="profile-avatar">
+                    <div class="avatar-image">
+                        <img class="avatar-image" src="https://localhost:7242/api/@Model.ImageUrl"
+                             alt="User Image" />
+                    </div>
+                    <div class="avatar-name">@Model.FirstName @Model.LastName</div>
+                    <div class="avatar-email">@Model.Email</div>
+                </div>
+                <div class="profile-nav">
+                    <div class="profile-nav-item">
+                        <a asp-action="Profile"><i>👤</i> Personal Information</a>
+                    </div>
+                    <div class="profile-nav-item active">
+                        <a asp-action="Security"><i>🔒</i> Security</a>
+                    </div>
+                    <div class="profile-nav-item">
+                        <a asp-action="Bookings"><i>📅</i> My Bookings</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-content">
+                <div id="security-section">
+                    <h2 class="content-title">Security</h2>
+                    <form asp-action="Edit" method="post" id="passwordChangeForm" onsubmit="return validatePasswordForm()">
+                        <h3 style="color: #1e3a5f; margin-bottom: 1rem; font-weight: 600;">Change Password</h3>
+
+                        <div id="validation-errors" class="validation-errors" style="display: none;"></div>
+
+                        <div class="form-group">
+                            <label class="form-label">Current Password</label>
+                            <input type="password" name="CurrentPassword" id="currentPassword" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">New Password</label>
+                            <input type="password" name="NewPassword" id="newPassword" class="form-input" required>
+                            <small class="password-rules">Password must be at least 8 characters long and include a number and special character.</small>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Confirm New Password</label>
+                            <input type="password" name="ConfirmPassword" id="confirmPassword" class="form-input" required>
+                        </div>
+                        <input type="hidden" name="Id" value="@User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value" />
+                        <p style="color: #666; margin-top: 0.5rem; font-size: 0.9rem;">
+                            Enhance your account security by requiring a verification code in addition to your password when signing in.
+                        </p>
+                        <div class="action-buttons">
+                            <button type="button" class="btn btn-cancel" onclick="resetForm()">Cancel</button>
+                            <button type="submit" class="btn btn-save">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</main>
+
+<script>
+    document.querySelector(".btn-save").addEventListener('click', function() {
+            showNotification('Password changed successfully!');
+    });
+
+    function validatePasswordForm() {
+        const currentPassword = document.getElementById("currentPassword").value;
+        const newPassword = document.getElementById("newPassword").value;
+        const confirmPassword = document.getElementById("confirmPassword").value;
+        const errorsDiv = document.getElementById("validation-errors");
+        let errors = [];
+        let isValid = true;
+
+        errorsDiv.innerHTML = '';
+        errorsDiv.style.display = 'none';
+
+        if (!currentPassword) {
+            errors.push("Current password is required");
+            isValid = false;
+        }
+
+        if (newPassword.length < 8) {
+            errors.push("New password must be at least 8 characters long");
+            isValid = false;
+        }
+
+        if (!/\d/.test(newPassword)) {
+            errors.push("New password must include at least one number");
+            isValid = false;
+        }
+
+        if (!/[!#$%^&*(),.?":{}|<>]/.test(newPassword)) {
+            errors.push("New password must include at least one special character");
+            isValid = false;
+        }
+
+        if (newPassword !== confirmPassword) {
+            errors.push("New password and confirm password do not match");
+            isValid = false;
+        }
+
+        if (!isValid) {
+            errorsDiv.style.display = 'block';
+            errors.forEach(error => {
+                const errorElement = document.createElement('div');
+                errorElement.textContent = error;
+                errorsDiv.appendChild(errorElement);
+            });
+        }
+
+        return isValid;
+    }
+
+    function resetForm() {
+        document.getElementById("passwordChangeForm").reset();
+        document.getElementById("validation-errors").style.display = 'none';
+    }
+
+    function showNotification(message) {
+        const notification = document.getElementById('notification');
+        document.querySelector('.notification-message').textContent = message;
+        notification.style.display = 'block';
+
+        setTimeout(() => {
+            notification.style.opacity = '0';
+            setTimeout(() => {
+                notification.style.display = 'none';
+                notification.style.opacity = '1';
+            }, 300);
+        }, 5000);
+    }
+</script>

@@ -1,0 +1,494 @@
+﻿
+@model EventPageViewModel
+@{
+    ViewData["Title"] = "Panel";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<style>
+    .pagination-button.active {
+        background-color: var(--danger);
+        color: white;
+        font-weight: bold;
+    }
+    .pagination-button{
+        color: var(--danger);
+    }
+
+    .validation-error-container {
+        background-color: #fef2f2;
+        border-left: 4px solid #ef4444;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 16px 0;
+        overflow: hidden;
+    }
+
+    .validation-error-header {
+        background-color: rgba(239, 68, 68, 0.1);
+        color: #b91c1c;
+        display: flex;
+        align-items: center;
+        padding: 12px 16px;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+        .validation-error-header svg {
+            margin-right: 10px;
+            color: #b91c1c;
+        }
+
+    .validation-error-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 12px 16px;
+    }
+
+    .validation-error-item {
+        color: #b91c1c;
+        padding: 6px 0;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+
+        .validation-error-item:before {
+            content: "•";
+            color: #ef4444;
+            font-weight: bold;
+            display: inline-block;
+            width: 16px;
+            margin-right: 4px;
+        }
+
+        .validation-error-item:not(:last-child) {
+            border-bottom: 1px dashed rgba(239, 68, 68, 0.2);
+        }
+
+    .error-field {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+
+    .modal-body {
+        padding: 20px;
+        overflow-y: scroll;
+        max-height: 700px;
+    }
+
+    .no-events {
+        text-align: center;
+        margin: 40px auto;
+        padding: 30px;
+        border: 2px dashed #ccc;
+        background-color: #f9f9f9;
+        color: #666;
+        border-radius: 10px;
+        max-width: 500px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .no-events h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .no-events p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+</style>
+<div class="tab-content" id="events">
+    <div class="content-header">
+        <h3 class="content-title">Manage Events</h3>
+        <button class="btn btn-primary" onclick="openModal('addEventModal')">Add New Event</button>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Event Title</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="eventsTableBody">
+                @foreach (var item in Model.Events)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@item.Date.ToString("yyyy-MM-dd HH:mm")</td>
+                        <td>@item.Location</td>
+                        <td>$@item.Price</td>
+                        <td>@item.Category</td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="btn btn-outline"
+                                        onclick='editEvent(@Html.Raw(Json.Serialize(new {
+                                    id = item.Id,
+                                    title = item.Title,
+                                    date = item.Date.ToString("yyyy-MM-ddTHH:mm"),
+                                    location = item.Location,
+                                    category = item.Category,
+                                    description = item.Description,
+                                    imageUrl = item.ImageUrl,
+                                    admissionPrice = item.AdmissionPrice,
+                                    vipPrice = item.VipPrice,
+                                    admissionTicketQty = item.AdmissionTicketQty,
+                                    vipTicketQty = item.VipTicketQty
+                                })))'>
+                                    Edit
+                                </button>
+
+                                <button class="btn btn-danger" onclick="confirmDeleteEvent(@item.Id)">Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    @if (Model.Events.Count == 0)
+    {
+        <div class="no-events">
+            <h3>No Events Found</h3>
+            <p>There are currently no events available. Please check back later.</p>
+        </div>
+    }
+    else if (Model.TotalCount > Model.PageSize)
+    {
+        <div class="pagination">
+            @{
+                int totalPages = (int)Math.Ceiling((double)Model.TotalCount / Model.PageSize);
+                int currentPage = Model.PageNumber;
+                int maxPagesToShow = 5;
+
+                int startPage = Math.Max(1, currentPage - (maxPagesToShow / 2));
+                int endPage = Math.Min(totalPages, startPage + maxPagesToShow - 1);
+
+                if (endPage - startPage + 1 < maxPagesToShow)
+                {
+                    startPage = Math.Max(1, endPage - maxPagesToShow + 1);
+                }
+
+                <button class="pagination-button @(currentPage == 1 ? "disabled" : "")"
+                @(currentPage == 1 ? "disabled" : "")
+                        onclick="location.href='@Url.Action("Panal", new { pageNumber = 1, pageSize = Model.PageSize})'">
+                    &laquo;
+                </button>
+
+                <button class="pagination-button @(currentPage == 1 ? "disabled" : "")"
+                @(currentPage == 1 ? "disabled" : "")
+                        onclick="location.href='@Url.Action("Panal", new { pageNumber = currentPage - 1, pageSize = Model.PageSize })'">
+                    &larr;
+                </button>
+
+                if (startPage > 1)
+                {
+                    <button class="pagination-button btn btn-danger"
+                            onclick="location.href='@Url.Action("Panal", new { pageNumber = 1, pageSize = Model.PageSize })'">
+                        1
+                    </button>
+
+                    if (startPage > 2)
+                    {
+                        <span class="pagination-button disabled">...</span>
+                    }
+                }
+
+                for (int i = startPage; i <= endPage; i++)
+                {
+                    <button class="pagination-button @(i == currentPage ? " active " : "")"
+                            onclick="location.href='@Url.Action("Panal", new { pageNumber = i, pageSize = Model.PageSize })'">
+                        @i
+                    </button>
+                }
+
+                if (endPage < totalPages)
+                {
+                    if (endPage < totalPages - 1)
+                    {
+                        <span class="pagination-button disabled">...</span>
+                    }
+
+                    <button class="pagination-button"
+                            onclick="location.href='@Url.Action("Panal", new { pageNumber = totalPages, pageSize = Model.PageSize})'">
+                        @totalPages
+                    </button>
+                }
+
+                <button class="pagination-button @(currentPage == totalPages ? "disabled" : "")"
+                @(currentPage == totalPages ? "disabled" : "")
+                        onclick="location.href='@Url.Action("Panal", new { pageNumber = currentPage + 1, pageSize = Model.PageSize})'">
+                    &rarr;
+                </button>
+
+                <button class="pagination-button @(currentPage == totalPages ? "disabled" : "")"
+                @(currentPage == totalPages ? "disabled" : "")
+                        onclick="location.href='@Url.Action( "Panal", new { pageNumber = totalPages, pageSize = Model.PageSize})'">
+                    &raquo;
+                </button>
+            }
+        </div>
+
+        <div class="pagination-info">
+            <span>Showing @((Model.PageNumber - 1) * Model.PageSize + 1) - @Math.Min(Model.PageNumber * Model.PageSize, Model.TotalCount) of @Model.TotalCount results</span>
+        </div>
+    }
+
+</div>
+
+<div class="modal" id="addEventModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Add New Event</h3>
+            <button class="close-btn" onclick="closeModal('addEventModal')">&times;</button>
+        </div>
+        <form id="addEventForm" class="modal-body" method="post" asp-controller="Event" asp-action="Add" enctype="multipart/form-data">
+            <input type="hidden" id="addEventId" name="Id">
+            <div class="form-group">
+                <label for="addEventName">Event Title</label>
+                <input type="text" id="addEventName" name="Title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="addEventDate">Date & Time</label>
+                <input type="datetime-local" id="addEventDate" name="Date" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="addEventVenue">Location</label>
+                <input type="text" id="addEventVenue" name="Location" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="addAdmissionPrice">Admission Price ($)</label>
+                <input type="number" id="addAdmissionPrice" name="AdmissionPrice" class="form-control" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+                <label for="addVipPrice">Vip Price ($)</label>
+                <input type="number" id="addVipPrice" name="VipPrice" class="form-control" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+                <label for="addAdmissionQty">Admission Qty</label>
+                <input type="number" id="addAdmissionQty" name="AdmissionTicketQty" class="form-control" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+                <label for="addVipQty">Vip Qty</label>
+                <input type="number" id="addVipQty" name="VipTicketQty" class="form-control" step="0.01" min="0">
+            <div class="form-group">
+                <label for="addEventCategory">Category</label>
+                <select id="editEventCategory" name="Category" class="form-control">
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="addEventDescription">Description</label>
+                <textarea id="addEventDescription" name="Description" class="form-control" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="addEventImage">Event Image</label>
+                <input type="file" id="addEventImage" name="file" class="form-control">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline" onclick="closeModal('addEventModal')">Cancel</button>
+                <button type="submit" class="btn btn-primary">Update Event</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+<div class="modal" id="editEventModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Edit Event</h3>
+            <button class="close-btn" onclick="closeModal('editEventModal')">&times;</button>
+        </div>
+        <form id="editEventForm" class="modal-body" method="post" asp-controller="Event" asp-action="Edit" enctype="multipart/form-data">
+            <input type="hidden" id="editEventId" name="Id">
+            <div class="form-group">
+                <label for="editEventName">Event Title</label>
+                <input type="text" id="editEventName" name="Title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="editEventDate">Date & Time</label>
+                <input type="datetime-local" id="editEventDate" name="Date" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="editEventVenue">Location</label>
+                <input type="text" id="editEventVenue" name="Location" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="editAdmissionPrice">Admission Price ($)</label>
+                <input type="number" id="editAdmissionPrice" name="AdmissionPrice" class="form-control" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+                <label for="editVipPrice">Vip Price ($)</label>
+                <input type="number" id="editVipPrice" name="VipPrice" class="form-control" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+                <label for="editAdmissionQty">Admission Qty</label>
+                <input type="number" id="editAdmissionQty" name="AdmissionTicketQty" class="form-control" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+                <label for="editVipQty">Vip Qty</label>
+                <input type="number" id="editVipQty" name="VipTicketQty" class="form-control" step="0.01" min="0">
+            </div>
+            <div class="form-group">
+                <label for="editEventCategory">Category</label>
+                <select id="editEventCategory" name="Category" class="form-control">
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="editEventDescription">Description</label>
+                <textarea id="editEventDescription" name="Description" class="form-control" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="editEventImage">Event Image</label>
+                <input type="file" id="editEventImage" name="file" class="form-control">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline" onclick="closeModal('editEventModal')">Cancel</button>
+                <button type="submit" class="btn btn-primary">Update Event</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal delete-modal" id="deleteEventModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Delete Event</h3>
+            <button class="close-btn" onclick="closeModal('deleteEventModal')">&times;</button>
+        </div>
+        <form method="post" asp-controller="Event" asp-action="Delete">
+            <div class="modal-body">
+                <p>Are you sure you want to delete this event? This action cannot be undone.</p>
+                <input type="hidden" id="deleteEventId" name="eventId">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline" onclick="closeModal('deleteEventModal')">Cancel</button>
+                <button type="submit" class="btn btn-danger">Delete Event</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="validation-error-container">
+        <div class="validation-error-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>Please correct the following errors:</span>
+        </div>
+        <ul class="validation-error-list">
+            @Html.ValidationSummary(true, "", new { @class = "validation-error-item" })
+        </ul>
+    </div>
+}
+
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'flex';
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+    }
+
+    function validateEventForm(formPrefix) {
+        const name = document.getElementById(formPrefix + 'Name').value;
+        const date = document.getElementById(formPrefix + 'Date').value;
+        const venue = document.getElementById(formPrefix + 'Venue').value;
+
+        if (!name || !date || !venue) {
+            alert("Please fill in all required fields (Name, Date, and Venue).");
+            return false;
+        }
+        return true;
+    }
+
+     async function editEvent(event) {
+        console.log(event);
+
+        currentEventId = event.id;
+        document.getElementById('editEventId').value = event.id;
+        document.getElementById('editEventName').value = event.title;
+        document.getElementById('editEventVenue').value = event.location;
+        document.getElementById('editAdmissionPrice').value = event.admissionPrice;
+        document.getElementById('editVipPrice').value = event.vipPrice;
+        document.getElementById('editAdmissionQty').value = event.admissionTicketQty;
+        document.getElementById('editVipQty').value = event.vipTicketQty;
+        document.getElementById('editEventDescription').value = event.description;
+
+        const dateObj = new Date(event.date);
+        const formattedDate = dateObj.toISOString().slice(0, 16);
+        document.getElementById('editEventDate').value = formattedDate;
+
+        await loadCategories();
+        document.getElementById('editEventCategory').value = event.category;
+
+        openModal('editEventModal');
+    }
+
+
+
+    function confirmDeleteEvent(eventId) {
+        document.getElementById('deleteEventId').value = eventId;
+        openModal('deleteEventModal');
+    }
+
+    window.onclick = function(event) {
+        const modals = document.getElementsByClassName('modal');
+        for (let i = 0; i < modals.length; i++) {
+            if (event.target == modals[i]) {
+                modals[i].style.display = 'none';
+            }
+        }
+    }
+
+      async function loadCategories() {
+        try {
+            const response = await fetch('https://localhost:7242/api/Categories/List/1/100000');
+            if (!response.ok) throw new Error('Failed to load categories');
+
+            const categories = await response.json();
+            console.log(categories);
+
+            const selects = document.querySelectorAll('#editEventCategory');
+
+            selects.forEach(select => {
+                select.innerHTML = '';
+
+                if (categories.categories && categories.categories.length > 0) {
+                    categories.categories.forEach(category => {
+                        const option = document.createElement('option');
+                        option.value = category.name;
+                        option.textContent = category.name;
+                        select.appendChild(option);
+                    });
+                } else {
+                    const option = document.createElement('option');
+                    option.value = 'None';
+                    option.textContent = 'None';
+                    select.appendChild(option);
+                }
+            });
+        } catch (error) {
+            console.error('Error loading categories:', error);
+        }
+    }
+
+
+
+    document.addEventListener('DOMContentLoaded', loadCategories);
+</script>
+

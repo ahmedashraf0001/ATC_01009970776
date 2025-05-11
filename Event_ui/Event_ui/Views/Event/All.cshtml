@@ -1,0 +1,173 @@
+﻿@model EventPageViewModel
+
+<link rel="stylesheet" href="~/css/home.css" />
+<style>
+    .no-events {
+        text-align: center;
+        margin: 40px auto;
+        padding: 30px;
+        border: 2px dashed #ccc;
+        background-color: #f9f9f9;
+        color: #666;
+        border-radius: 10px;
+        max-width: 500px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+        .no-events h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .no-events p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+</style>
+<div id="homePage" class="page-content">
+    <section class="container" >
+        <h2 class="section-title">All Events</h2>
+
+        <div class="search-bar" style="width:260px; margin:20px;background-color: #cdcdcd;">
+            <form asp-controller="Event" asp-action="Search" method="get" >
+                <input style="background-color: #cdcdcd; " type="text" name="query" placeholder="Search events..." value="@Model.searchQuery" />
+                <input type="hidden" name="PageNumber"  value="@Model.PageNumber" hidden />
+                    <input type="hidden" name="PageSize"  value="@Model.PageSize" hidden />
+                    <button type="submit"><i class="fas fa-search">🔍</i></button>
+            </form>
+        </div>
+        
+        <div class="events-grid" id="eventsGrid">
+            @foreach (var item in Model.Events)
+            {
+                var formattedDate = item.Date.ToString("MMMM dd, yyyy");
+                var formattedTime = item.Date.ToString("hh:mm tt");
+
+                <div class="event-card">
+                    <img src="https://localhost:7242/api/@item.ImageUrl" alt="@item.Title" class="event-image">
+                    <div class="event-content">
+                        <span class="event-category">@item.Category</span>
+                        <h3 class="event-title">@item.Title</h3>
+                        <div class="event-info">
+                            <i class="fas fa-calendar">📅</i>
+                            <span>@formattedDate</span>
+                        </div>
+                        <div class="event-info">
+                            <i class="fas fa-clock">🕒</i>
+                            <span>@formattedTime</span>
+                        </div>
+                        <div class="event-info">
+                            <i class="fas fa-map-marker-alt">📍</i>
+                            <span>@item.Location</span>
+                        </div>
+                        <div class="event-price">$@item.Price.ToString("N0")</div>
+                        <div class="card-footer">
+                            <a asp-action="Details" asp-controller="Event" asp-route-id="@item.Id"><button class="btn-details" data-id="@item.Id">View Details</button></a>
+                            @if (item.IsBooked)
+                            {
+                                <button class="btn-booked">Booked</button>                              
+                            }
+                            else if (item.SoldOut)
+                            {
+                                <button class="btn-sold-out">Sold out</button>
+                            }
+
+                            else
+                            {
+                                <a asp-action="QuickBook" asp-controller="Booking" asp-route-EventId="@item.Id"><button class="btn-book-now" data-id="@item.Id">Book Now</button></a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @if (Model.Events.Count == 0)
+        {
+            <div class="no-events">
+                <h3>No Events Found</h3>
+                <p>There are currently no events available. Please check back later.</p>
+            </div>
+        }
+        else if (Model.TotalCount > Model.PageSize)
+        {
+            <div class="pagination">
+                @{
+                    int totalPages = (int)Math.Ceiling((double)Model.TotalCount / Model.PageSize);
+                    int currentPage = Model.PageNumber;
+                    int maxPagesToShow = 5;
+
+                    int startPage = Math.Max(1, currentPage - (maxPagesToShow / 2));
+                    int endPage = Math.Min(totalPages, startPage + maxPagesToShow - 1);
+
+                    if (endPage - startPage + 1 < maxPagesToShow)
+                    {
+                        startPage = Math.Max(1, endPage - maxPagesToShow + 1);
+                    }
+
+                    <button class="pagination-button @(currentPage == 1 ? "disabled" : "")"
+                    @(currentPage == 1 ? "disabled" : "")
+                            onclick="location.href='@Url.Action((Model.searchQuery != null && Model.searchQuery != "") ? "Search" : "All", new { pageNumber = 1, pageSize = Model.PageSize, query = Model.searchQuery })'">
+                        &laquo;
+                    </button>
+
+                    <button class="pagination-button @(currentPage == 1 ? "disabled" : "")"
+                    @(currentPage == 1 ? "disabled" : "")
+                            onclick="location.href='@Url.Action((Model.searchQuery != null && Model.searchQuery != "") ? "Search" : "All", new { pageNumber = currentPage - 1, pageSize = Model.PageSize, query = Model.searchQuery })'">
+                        &larr;
+                    </button>
+                    if (startPage > 1)
+                    {
+                        <button class="pagination-button"
+                                onclick="location.href='@Url.Action((Model.searchQuery != null && Model.searchQuery != "") ? "Search" : "All", new { pageNumber = 1, pageSize = Model.PageSize, query = Model.searchQuery })'">
+                            1
+                        </button>
+                        if (startPage > 2)
+                        {
+                            <span class="pagination-button disabled">...</span>
+                        }
+                    }
+                    for (int i = startPage; i <= endPage; i++)
+                    {
+                        <button class="pagination-button @(i == currentPage ? "active" : "")"
+                                onclick="location.href='@Url.Action((Model.searchQuery != null && Model.searchQuery != "") ? "Search" : "All", new { pageNumber = i, pageSize = Model.PageSize, query = Model.searchQuery })'">
+                            @i
+                        </button>
+                    }
+
+                    if (endPage < totalPages)
+                    {
+                        if (endPage < totalPages - 1)
+                        {
+                            <span class="pagination-button disabled">...</span>
+                        }
+
+                        <button class="pagination-button"
+                                onclick="location.href='@Url.Action((Model.searchQuery != null && Model.searchQuery != "") ? "Search" : "All", new { pageNumber = totalPages, pageSize = Model.PageSize, query = Model.searchQuery })'">
+                            @totalPages
+                        </button>
+                    }
+
+                    <button class="pagination-button @(currentPage == totalPages ? "disabled" : "")"
+                    @(currentPage == totalPages ? "disabled" : "")
+                            onclick="location.href='@Url.Action((Model.searchQuery != null && Model.searchQuery != "") ? "Search" : "All", new { pageNumber = currentPage + 1, pageSize = Model.PageSize, query = Model.searchQuery })'">
+                        &rarr;
+                    </button>
+
+                    <button class="pagination-button @(currentPage == totalPages ? "disabled" : "")"
+                    @(currentPage == totalPages ? "disabled" : "")
+                            onclick="location.href='@Url.Action((Model.searchQuery != null && Model.searchQuery != "") ? "Search" : "All", new { pageNumber = totalPages, pageSize = Model.PageSize, query = Model.searchQuery })'">
+                        &raquo;
+                    </button>
+                }
+            </div>
+
+            <div class="pagination-info">
+                <span>Showing @((Model.PageNumber - 1) * Model.PageSize + 1) - @Math.Min(Model.PageNumber * Model.PageSize, Model.TotalCount) of @Model.TotalCount results</span>
+            </div>
+        }
+    </section>
+</div>

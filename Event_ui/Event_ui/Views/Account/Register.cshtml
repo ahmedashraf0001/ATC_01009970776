@@ -1,0 +1,146 @@
+﻿@model RegisterDTO
+@{
+    ViewData["Title"] = "Register";
+}
+<style>
+    .validation-error-container {
+        background-color: #fef2f2;
+        border-left: 4px solid #ef4444;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 16px 0;
+        overflow: hidden;
+    }
+
+    .validation-error-header {
+        background-color: rgba(239, 68, 68, 0.1);
+        color: #b91c1c;
+        display: flex;
+        align-items: center;
+        padding: 12px 16px;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+        .validation-error-header svg {
+            margin-right: 10px;
+            color: #b91c1c;
+        }
+
+    .validation-error-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 12px 16px;
+    }
+
+    .validation-error-item {
+        color: #b91c1c;
+        padding: 6px 0;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+
+        .validation-error-item:before {
+            content: "•";
+            color: #ef4444;
+            font-weight: bold;
+            display: inline-block;
+            width: 16px;
+            margin-right: 4px;
+        }
+
+        .validation-error-item:not(:last-child) {
+            border-bottom: 1px dashed rgba(239, 68, 68, 0.2);
+        }
+
+    .error-field {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+</style>
+<link rel="stylesheet" href="~/css/Login.css" />
+
+
+<div class="main-content">
+    <div class="con">
+        <div class="auth-container" id="register-form">
+            <div class="auth-header">
+                <h2>Create Account</h2>
+                <p>Join EventHub to discover and book amazing events</p>
+            </div>
+            <form id="registerForm" asp-action="Register" method="post" onsubmit="return validatePassword()">
+                <div class="form-group">
+                    <label for="register-name">Full Name</label>
+                    <input type="text" asp-for="Fullname" id="register-name" required class="form-control" />
+                    <div class="error-message" asp-validation-for="Fullname"></div>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">Email Address</label>
+                    <input type="email" asp-for="Email" id="register-email" required class="form-control" />
+                    <div class="error-message" asp-validation-for="Email"></div>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Password</label>
+                    <input type="password" asp-for="Password" id="register-password" required class="form-control" />
+                    <div class="error-message" asp-validation-for="Password"></div>
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm-password">Confirm Password</label>
+                    <input type="password" asp-for="ConfPass" id="register-confirm-password" required class="form-control" />
+                    <div class="error-message" asp-validation-for="ConfPass"></div>
+                </div>
+                <div class="form-group">
+                    <label for="register-address">Address</label>
+                    <input type="text" asp-for="Address" id="register-address" required class="form-control" />
+                    <div class="error-message" asp-validation-for="Address"></div>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Sign Up</button>
+            </form>
+            <div class="form-footer">
+                Already have an account? <a asp-action="Login" id="switch-to-login">Login here</a>
+            </div>
+        </div>
+    </div>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="validation-error-container">
+            <div class="validation-error-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span>Please correct the following errors:</span>
+            </div>
+            <ul class="validation-error-list">
+                @foreach (var error in ViewData.ModelState.Values
+               .SelectMany(v => v.Errors)
+               .Select(e => e.ErrorMessage)
+               .Distinct())
+                {
+                    <li class="validation-error-item">@error</li>
+                }
+            </ul>
+        </div>
+    }
+</div>
+
+<script>
+    function validatePassword() {
+        var password = document.getElementById('register-password').value;
+        var confirmPassword = document.getElementById('register-confirm-password').value;
+
+        if (password !== confirmPassword) {
+            alert('Password and Confirm Password do not match.');
+            return false;
+        }
+        return true;
+    }
+</script>

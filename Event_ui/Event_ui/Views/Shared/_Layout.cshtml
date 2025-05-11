@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Event_ui</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a asp-controller="Event" asp-action="Index"><div class="logo">Event<span>Hub</span></div></a>
+
+                <button class="hamburger" id="hamburger">☰</button>
+
+                <div class="nav-links" id="navLinks">
+                    <a asp-controller="Event" asp-action="Index" class="nav-link active" data-page="home">Home</a>
+                    <a asp-controller="Event" asp-action="All" class="nav-link" data-page="events">Events</a>
+                    @if (Context.User.Identity.IsAuthenticated && Context.User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Admin" asp-action="Panal" class="nav-link" data-page="events">Admin Panal</a>
+
+                    }
+
+                    @if (Context.User.Identity.IsAuthenticated)
+                    {
+                        <div class="user-info" id="userInfo" >
+                            <a asp-controller="User" asp-action="Profile" style="display:flex; justify-content:center; align-items:center; gap:10px" >
+                                <img src="https://localhost:7242/api/@(Context.User.Claims.FirstOrDefault(c => c.Type == "Image")?.Value ?? "https://localhost:7242/api/uploads/default.png")"
+                                     alt="User Image" class="user-avatar" />
+                                <span>@Context.User.Identity.Name</span>
+                            </a>
+                            <a asp-controller="Account" asp-action="Logout"><button class="btn-logout">Logout</button></a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="auth-buttons" id="authButtons">
+                            <a asp-controller="Account" asp-action="Login"><button class="btn-login" data-page="login">Login</button></a>
+                            <a asp-controller="Account" asp-action="Register"><button class="btn-signup" data-page="register">Sign Up</button></a>
+                        </div>
+                    }
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="maaaain">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>EventHub</h3>
+                    <p>Your one-stop platform for discovering and booking amazing events in your city.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a asp-controller="Event" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Event" asp-action="All">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Email: info@eventhub.com</li>
+                        <li>Phone: +1 (123) 456-7890</li>
+                        <li>Address: 123 Event St, City</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EventHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+<script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+        const navLinks = document.getElementById('navLinks');
+        navLinks.classList.toggle('active');
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const currentPath = window.location.pathname.toLowerCase();
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        navLinks.forEach(link => {
+            const href = link.getAttribute('href').toLowerCase();
+            if (currentPath === href || (href !== '/' && currentPath.startsWith(href))) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+
+        const userAvatar = document.querySelector('.user-avatar');
+        if (userAvatar) {
+            userAvatar.onerror = function() {
+                this.src = '/images/default-avatar.png';
+            };
+        }
+    });
+</script>

@@ -1,0 +1,117 @@
+﻿@model UserProfileDTO
+
+<link rel="stylesheet" href="~/css/Profile.css" />
+<style>
+    .no-bookings-message {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    margin-top: 2rem;
+    }
+
+    .no-bookings-message p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+
+</style>
+<main class="main-content">
+    <h1 class="page-title">User Profile</h1>
+
+    <div class="profile-container">
+        <div class="profile-sidebar">
+            <div class="profile-avatar">
+                <div class="avatar-image">
+                    <img class="avatar-image" src="https://localhost:7242/api/@Model.PersonalInfo.ImageUrl"
+                    alt="User Image" />
+                </div>
+                <div class="avatar-name">
+                    @(string.IsNullOrEmpty(Model.PersonalInfo.FirstName) ? "" : Model.PersonalInfo.FirstName)
+                    @(string.IsNullOrEmpty(Model.PersonalInfo.LastName) ? "" : Model.PersonalInfo.LastName)
+                </div>
+                <div class="avatar-email">@Model.PersonalInfo.Email</div>
+            </div>
+
+            <div class="profile-nav">
+                <div class="profile-nav-item ">
+                    <a asp-action="Profile"><i>👤</i> Personal Information</a>
+                </div>
+                <div class="profile-nav-item">
+                    <a asp-action="Security"><i>🔒</i> Security</a>
+                </div>
+                <div class="profile-nav-item active">
+                    <a asp-action="Bookings"><i>📅</i> My Bookings</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-content">
+            <div id="bookings-section" >
+                <h2 class="content-title">My Bookings</h2>
+
+                <div class="bookings-list">
+                    @if (!Model.Bookings.Any())
+                    {
+                        <div class="no-bookings-message" >
+                            <p>You haven’t booked any events yet. Explore events and start booking!</p>
+                            <a asp-action="All" asp-controller="Event" class="btn btn-primary" style="background-color:#1e3a5f">
+                                <i class="fas fa-home"></i> Browse Events
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        @foreach (var item in Model.Bookings)
+                        {
+                            var formattedDate = item.BookingDate.ToString("MMMM dd, yyyy");
+                            var formattedTime = item.BookingDate.ToString("hh:mm tt");
+
+                            <div class="booking-item">
+                                <div class="booking-image">
+                                    <img class="avatar-image" src="https://localhost:7242/api/@item.EvImageUrl" alt="User Image" />
+                                </div>
+                                <div class="booking-details">
+                                    <div style="display: flex; align-items: center; margin-bottom: 0.25rem;">
+                                        <span class="booking-tag music">@item.EvCategory</span>
+                                    </div>
+                                    <h3 class="booking-title">@item.EvTitle</h3>
+                                    <div class="booking-info">
+                                        <div class="booking-info-item"><i>📅</i> @formattedDate</div>
+                                        <div class="booking-info-item"><i>⏰</i> @formattedTime</div>
+                                        <div class="booking-info-item"><i>📍</i> @item.EvLocation</div>
+                                    </div>
+                                    <div style="display: flex; align-items: center; margin-top: 1rem;">
+                                        <div class="booking-price">$@item.EvPrice</div>
+                                        @if (item.Status == BookingStatus.Canceled)
+                                        {
+                                            <a asp-controller="Booking" asp-action="CanceledDetails" asp-route-BookingId="@item.Id">
+                                                <button class="btn btn-outline" style="margin-right: 1rem;">View Details</button>
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <a asp-controller="Booking" asp-action="Details" asp-route-BookingId="@item.Id">
+                                                <button class="btn btn-outline" style="margin-right: 1rem;">View Details</button>
+                                            </a>
+                                        }
+                                        <span class="booking-status
+                            @(item.Status == BookingStatus.Confirmed ? "status-confirmed" :
+                              item.Status == BookingStatus.Pending ? "status-pending" :
+                              item.Status == BookingStatus.Canceled ? "status-canceled" : "")">
+                                            @(item.Status == BookingStatus.Pending ? "Pending" :
+                                                item.Status == BookingStatus.Confirmed ? "Confirmed" :
+                                                item.Status == BookingStatus.Canceled ? "Canceled" : "")
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>

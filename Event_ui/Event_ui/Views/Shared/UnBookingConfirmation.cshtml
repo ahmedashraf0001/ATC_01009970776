@@ -1,0 +1,179 @@
+﻿@model BookingDTO
+@{
+    ViewData["Title"] = "Booking Canceled";
+}
+<link rel="stylesheet" href="~/css/UnBookConf.css" />
+<style>
+    .validation-error-container {
+        background-color: #fef2f2;
+        border-left: 4px solid #ef4444;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin: 16px 0;
+        overflow: hidden;
+    }
+
+    .validation-error-header {
+        background-color: rgba(239, 68, 68, 0.1);
+        color: #b91c1c;
+        display: flex;
+        align-items: center;
+        padding: 12px 16px;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+        .validation-error-header svg {
+            margin-right: 10px;
+            color: #b91c1c;
+        }
+
+    .validation-error-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 12px 16px;
+    }
+
+    .validation-error-item {
+        color: #b91c1c;
+        padding: 6px 0;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+
+        .validation-error-item:before {
+            content: "•";
+            color: #ef4444;
+            font-weight: bold;
+            display: inline-block;
+            width: 16px;
+            margin-right: 4px;
+        }
+
+        .validation-error-item:not(:last-child) {
+            border-bottom: 1px dashed rgba(239, 68, 68, 0.2);
+        }
+
+    .error-field {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+
+</style>
+
+@{
+    ViewBag.Title = "Booking Confirmation";
+    var errorMessage = TempData["ErrorMessage"] as string;
+    var formattedErrors = TempData["FormattedErrors"] as List<string> ?? new List<string>();
+}
+<div class="confirmation-container">
+    @if (TempData["ValidationErrors"] != null || formattedErrors.Any() || !string.IsNullOrEmpty(errorMessage) || Model == null)
+    {
+        <div class="validation-error-container">
+            <div class="validation-error-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <span>Please correct the following errors:</span>
+            </div>
+            <ul class="validation-error-list">
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <li class="validation-error-item">@errorMessage</li>
+                }
+                @foreach (var error in formattedErrors)
+                {
+                    <li class="validation-error-item">@error</li>
+                }
+            </ul>
+        </div>
+    }
+    else{
+    <div class="confirmation-card canceled">
+        <div class="event-image">
+            <img src="https://localhost:7242/api/@Model.EvImageUrl" alt="@Model.EvTitle" onerror="this.src='/api/placeholder/500/300'; this.alt='Event image placeholder'">
+        </div>
+
+        <div class="confirmation-content">
+            <div class="confirmation-header">
+                <h1>Booking Canceled</h1>
+                <div class="booking-id">
+                    <span>Booking #@Model.Id</span>
+                    <span class="booking-status">Canceled</span>
+                </div>
+            </div>
+
+            <div class="event-info">
+                <h2>@Model.EvTitle</h2>
+                <div class="event-meta">
+                    <div class="event-meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>@Model.EvDate.ToString("dddd, MMMM d, yyyy") at @Model.EvDate.ToString("h:mm tt")</span>
+                    </div>
+                    <div class="event-meta-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>@Model.EvLocation</span>
+                    </div>
+                    <div class="event-meta-item">
+                        <i class="fas fa-tag"></i>
+                        <span>@Model.EvCategory</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ticket-details">
+                <h3>Original Ticket Information</h3>
+                <div class="ticket-quantities">
+                    @if (Model.AdmissionTicketQty > 0)
+                    {
+                        <div class="ticket-qty-item">
+                            <span class="ticket-label">General Admission</span>
+                            <div class="ticket-qty-value">
+                                <span class="ticket-count">@Model.AdmissionTicketQty</span>
+                                <span class="ticket-unit">ticket@(Model.AdmissionTicketQty != 1 ? "s" : "")</span>
+                            </div>
+                        </div>
+                    }
+
+                    @if (Model.VipTicketQty > 0)
+                    {
+                        <div class="ticket-qty-item">
+                            <span class="ticket-label">VIP Experience</span>
+                            <div class="ticket-qty-value">
+                                <span class="ticket-count">@Model.VipTicketQty</span>
+                                <span class="ticket-unit">ticket@(Model.VipTicketQty != 1 ? "s" : "")</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="attendee-info">
+                <h3>Attendee</h3>
+                <div class="attendee-name">
+                    <i class="fas fa-user"></i>
+                    <span>@Model.userName</span>
+                </div>
+            </div>
+
+            <div class="payment-summary">
+                <div class="payment-total">
+                    <span>Refunded</span>
+                    <span class="total-amount">+$@Model.EvPrice.ToString("0.00")</span>
+                </div>
+            </div>
+
+            <div class="confirmation-actions">
+                <a href="@Url.Action("Index", "Event")" class="btn">
+                    <i class="fas fa-home"></i> Back to Main
+                </a>
+            </div>
+        </div>
+    </div>
+    }
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">

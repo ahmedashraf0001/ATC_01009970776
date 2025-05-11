@@ -1,0 +1,1979 @@
+{
+  "Version": 1,
+  "Hash": "OKMz6Qn9a3wlLRwwdqXlpG4P2fEyS24zMF58N1XAqak=",
+  "Source": "event-booking-system",
+  "BasePath": "_content/event-booking-system",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "event-booking-system\\wwwroot",
+      "Source": "event-booking-system",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0b5114a0-d834-4431-a44a-6847cfd5086c.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/0b5114a0-d834-4431-a44a-6847cfd5086c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0b5114a0-d834-4431-a44a-6847cfd5086c.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0d2a0079-877c-46fa-82bd-b1dcd6278fe3.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/0d2a0079-877c-46fa-82bd-b1dcd6278fe3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0d2a0079-877c-46fa-82bd-b1dcd6278fe3.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0e49416c-34ef-4e31-aad8-60fd79a0eaee.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/0e49416c-34ef-4e31-aad8-60fd79a0eaee#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0e49416c-34ef-4e31-aad8-60fd79a0eaee.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\10d210f9-3cf1-4fd3-bf09-4e5d3410559b.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/10d210f9-3cf1-4fd3-bf09-4e5d3410559b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\10d210f9-3cf1-4fd3-bf09-4e5d3410559b.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\36f05e2f-2ce8-413a-95e9-2998d9955002.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/36f05e2f-2ce8-413a-95e9-2998d9955002#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\36f05e2f-2ce8-413a-95e9-2998d9955002.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\4782961e-afb4-4db9-b9db-0f2e2091cd20.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/4782961e-afb4-4db9-b9db-0f2e2091cd20#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\4782961e-afb4-4db9-b9db-0f2e2091cd20.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\5e174b54-4db8-4183-928e-788143fef661.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/5e174b54-4db8-4183-928e-788143fef661#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5e174b54-4db8-4183-928e-788143fef661.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\7064c311-148d-45a1-b4da-949c68e14a7e.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/7064c311-148d-45a1-b4da-949c68e14a7e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7064c311-148d-45a1-b4da-949c68e14a7e.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\8e4cf549-b3fb-4710-9d7c-968b1c72abd6.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/8e4cf549-b3fb-4710-9d7c-968b1c72abd6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\8e4cf549-b3fb-4710-9d7c-968b1c72abd6.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\968ba3fa-21f3-4f38-85c0-947d2836c281.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/968ba3fa-21f3-4f38-85c0-947d2836c281#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\968ba3fa-21f3-4f38-85c0-947d2836c281.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\ba09c744-b5db-4527-a6bb-483f0cae71c0.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/ba09c744-b5db-4527-a6bb-483f0cae71c0#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ba09c744-b5db-4527-a6bb-483f0cae71c0.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\ba7a0e14-5189-42e6-8682-62e39bec09ea.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/ba7a0e14-5189-42e6-8682-62e39bec09ea#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ba7a0e14-5189-42e6-8682-62e39bec09ea.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/default#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5bc1hng2h3",
+      "Integrity": "bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\default.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d.png",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmycvw9u9e",
+      "Integrity": "tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d.png"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/football#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ivm50oqrz",
+      "Integrity": "BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\football.jpeg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Rock Concert#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s79v0wdb76",
+      "Integrity": "mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Rock Concert.jpeg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Shakespeare Play#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t2dsufd0pv",
+      "Integrity": "NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Shakespeare Play.jpg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Stand-up Comedy Show#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wfhct8pfd4",
+      "Integrity": "tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Stand-up Comedy Show.jpeg"
+    },
+    {
+      "Identity": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "SourceId": "event-booking-system",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\",
+      "BasePath": "_content/event-booking-system",
+      "RelativePath": "uploads/Tech Conference#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e0jm0tf5m9",
+      "Integrity": "QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Tech Conference.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/0b5114a0-d834-4431-a44a-6847cfd5086c.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0b5114a0-d834-4431-a44a-6847cfd5086c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:20:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0b5114a0-d834-4431-a44a-6847cfd5086c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0b5114a0-d834-4431-a44a-6847cfd5086c.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0b5114a0-d834-4431-a44a-6847cfd5086c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:20:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0d2a0079-877c-46fa-82bd-b1dcd6278fe3.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0d2a0079-877c-46fa-82bd-b1dcd6278fe3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0d2a0079-877c-46fa-82bd-b1dcd6278fe3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0d2a0079-877c-46fa-82bd-b1dcd6278fe3.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0d2a0079-877c-46fa-82bd-b1dcd6278fe3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:13:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0e49416c-34ef-4e31-aad8-60fd79a0eaee.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0e49416c-34ef-4e31-aad8-60fd79a0eaee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:12:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0e49416c-34ef-4e31-aad8-60fd79a0eaee.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0e49416c-34ef-4e31-aad8-60fd79a0eaee.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\0e49416c-34ef-4e31-aad8-60fd79a0eaee.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:12:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/10d210f9-3cf1-4fd3-bf09-4e5d3410559b.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\10d210f9-3cf1-4fd3-bf09-4e5d3410559b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:13:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/10d210f9-3cf1-4fd3-bf09-4e5d3410559b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/10d210f9-3cf1-4fd3-bf09-4e5d3410559b.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\10d210f9-3cf1-4fd3-bf09-4e5d3410559b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:13:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/36f05e2f-2ce8-413a-95e9-2998d9955002.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\36f05e2f-2ce8-413a-95e9-2998d9955002.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/36f05e2f-2ce8-413a-95e9-2998d9955002.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/36f05e2f-2ce8-413a-95e9-2998d9955002.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\36f05e2f-2ce8-413a-95e9-2998d9955002.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4782961e-afb4-4db9-b9db-0f2e2091cd20.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\4782961e-afb4-4db9-b9db-0f2e2091cd20.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:17:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4782961e-afb4-4db9-b9db-0f2e2091cd20.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4782961e-afb4-4db9-b9db-0f2e2091cd20.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\4782961e-afb4-4db9-b9db-0f2e2091cd20.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:17:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5e174b54-4db8-4183-928e-788143fef661.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\5e174b54-4db8-4183-928e-788143fef661.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:15:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5e174b54-4db8-4183-928e-788143fef661.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5e174b54-4db8-4183-928e-788143fef661.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\5e174b54-4db8-4183-928e-788143fef661.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:15:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7064c311-148d-45a1-b4da-949c68e14a7e.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\7064c311-148d-45a1-b4da-949c68e14a7e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:21:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7064c311-148d-45a1-b4da-949c68e14a7e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7064c311-148d-45a1-b4da-949c68e14a7e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\7064c311-148d-45a1-b4da-949c68e14a7e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:21:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/8e4cf549-b3fb-4710-9d7c-968b1c72abd6.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\8e4cf549-b3fb-4710-9d7c-968b1c72abd6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:19:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/8e4cf549-b3fb-4710-9d7c-968b1c72abd6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/8e4cf549-b3fb-4710-9d7c-968b1c72abd6.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\8e4cf549-b3fb-4710-9d7c-968b1c72abd6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:19:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/968ba3fa-21f3-4f38-85c0-947d2836c281.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\968ba3fa-21f3-4f38-85c0-947d2836c281.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:27:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/968ba3fa-21f3-4f38-85c0-947d2836c281.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/968ba3fa-21f3-4f38-85c0-947d2836c281.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\968ba3fa-21f3-4f38-85c0-947d2836c281.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:27:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ba09c744-b5db-4527-a6bb-483f0cae71c0.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\ba09c744-b5db-4527-a6bb-483f0cae71c0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ba09c744-b5db-4527-a6bb-483f0cae71c0.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ba09c744-b5db-4527-a6bb-483f0cae71c0.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\ba09c744-b5db-4527-a6bb-483f0cae71c0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:20:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ba7a0e14-5189-42e6-8682-62e39bec09ea.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\ba7a0e14-5189-42e6-8682-62e39bec09ea.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:22:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ba7a0e14-5189-42e6-8682-62e39bec09ea.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ba7a0e14-5189-42e6-8682-62e39bec09ea.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\ba7a0e14-5189-42e6-8682-62e39bec09ea.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:22:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/default.5bc1hng2h3.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:21:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bc1hng2h3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/default.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/default.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\default.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:21:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bx5MQGofKCvLVK+eEhHTYUKvCnPf0XE/6eO02vFEPWI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d.kmycvw9u9e.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:29:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmycvw9u9e"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d.png",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\e3b6c742-cb9f-4e56-b83c-d9dbee4fc04d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 04:29:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLZjAZWP0LagnfIOO7st4fyIJg9glDgfCx88rkZNRtw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/football.4ivm50oqrz.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:08:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ivm50oqrz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/football.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/football.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\football.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "944364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:08:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJI8qj08i7DbQfXmUD529Cffs1V2+wcQLnwju+h/ALU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rock Concert.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rock Concert.s79v0wdb76.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Rock Concert.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:09:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s79v0wdb76"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Rock Concert.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mK8VgO3KuKTGbKpYhG08LaACWsjY9Ein+KrPQh2oS1Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shakespeare Play.jpg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:10:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shakespeare Play.t2dsufd0pv.jpg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Shakespeare Play.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:10:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t2dsufd0pv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Shakespeare Play.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXst+kyW6Y07n4mF1TdRbty1L8fgdUCMGK3EGDG2qjE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Stand-up Comedy Show.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Stand-up Comedy Show.wfhct8pfd4.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Stand-up Comedy Show.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfhct8pfd4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Stand-up Comedy Show.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG9/ajs49X66hL5TdIPQQRUtmVMImuavljhY2EGFzX8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Tech Conference.e0jm0tf5m9.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e0jm0tf5m9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Tech Conference.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Tech Conference.jpeg",
+      "AssetFile": "G:\\work\\Coding\\backend\\,net api\\Projects\\event-booking-system\\event-booking-system\\wwwroot\\uploads\\Tech Conference.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 03:11:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QjLoyfxJJ1iQmgy2W3YtILZpgn/KWyubLvnRE6LnXU0="
+        }
+      ]
+    }
+  ]
+}
